@@ -3,9 +3,12 @@ import HeroBg from "../assets/Hero-bg.jpg";
 
 const Hero = () => {
   return (
-    <section className="text-gray-600 body-font bg-gradient-to-b from-white to-indigo-50/30 px-4 md:px-10 lg:px-20">
+    <section className="text-gray-600 body-font bg-gradient-to-b from-white to-indigo-50/30 px-4  md:px-10 lg:px-20">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="inline-flex items-center bg-indigo-50 text-indigo-600 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 border border-indigo-100 animate-pulse">
+            Version 2.0 is now live!
+          </div>
           <h1 className="title-font sm:text-6xl text-4xl mb-6 font-extrabold text-gray-900 leading-tight">
             Manage Your Team <br className="hidden lg:inline-block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
