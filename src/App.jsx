@@ -1,4 +1,6 @@
 import "./App.css";
+import Contact from "./components/Contact";
+ 
 
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
@@ -19,6 +21,7 @@ function App() {
       <Step />
       <Pricing />
       <Team />
+      <Contact/>
       <Footer />
     </>
   );
