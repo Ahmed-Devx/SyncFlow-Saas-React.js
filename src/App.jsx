@@ -10,6 +10,7 @@ import Pricing from "./components/Pricing";
 import Statistic from "./components/Statistic";
 import Step from "./components/Step";
 import Team from "./components/Team";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Statistic />
       <Feature />
       <Step />
+      <Testimonial/>
       <Pricing />
       <Team />
       <Contact/>
