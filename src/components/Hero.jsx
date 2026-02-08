@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 shadow-1xl">
           <img
             className="object-cover object-center rounded-2xl shadow-2xl transition-transform hover:scale-105 duration-500"
             alt="SaaS Dashboard Preview"
