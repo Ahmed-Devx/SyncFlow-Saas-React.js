@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 import Statistic from "./components/Statistic";
+import Team from "./components/Team";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Statistic />
       <Feature />
       <Pricing />
+      <Team />
     </>
   );
 }
