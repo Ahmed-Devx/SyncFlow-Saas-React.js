@@ -1,6 +1,7 @@
 import "./App.css";
- 
+
 import Feature from "./components/Feature";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
@@ -15,9 +16,10 @@ function App() {
       <Hero />
       <Statistic />
       <Feature />
-       <Step/>
+      <Step />
       <Pricing />
       <Team />
+      <Footer />
     </>
   );
 }
