@@ -43,7 +43,7 @@ const Pricing = () => {
   ];
 
   return (
-    <section className="text-gray-600 body-font overflow-hidden bg-gray-50/50">
+    <section className="text-gray-600 body-font overflow-hidden bg-gray-50/50 px-6 md:px-16 lg:px-24">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-extrabold title-font mb-2 text-gray-900">

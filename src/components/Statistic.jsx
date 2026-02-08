@@ -30,7 +30,7 @@ const Statistics = () => {
   ];
 
   return (
-    <section className="text-gray-600 body-font bg-white">
+    <section className="text-gray-600 body-font bg-white px-6 md:px-16 lg:px-24">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-x text-indigo-600 tracking-widest font-medium title-font mb-1 uppercase">
