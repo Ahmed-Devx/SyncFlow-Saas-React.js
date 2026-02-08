@@ -106,7 +106,7 @@ const Footer = () => {
       <div className="border-t border-gray-200">
         <div className="container py-8 mx-auto flex items-center sm:flex-row flex-col">
           <p className="text-sm text-gray-500 sm:py-2 sm:mt-0 mt-4">
-            © {new Date().getFullYear()} SyncFlow — Built with ❤️ for developers
+            © {new Date().getFullYear()} SyncFlow — Built by Muhammad Ahmed❤️
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start space-x-4">
             <a className="text-gray-400 hover:text-indigo-600 cursor-pointer transition-colors">

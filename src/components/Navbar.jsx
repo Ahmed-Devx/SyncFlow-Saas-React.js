@@ -1,7 +1,7 @@
 import { FiArrowRight, FiZap } from "react-icons/fi";
 
 const Navbar = () => {
-  const menuItems = ["Home", "Features", "Pricing", "Contact"];
+  const menuItems = ["Home", "Features","How it Works","Testimonials", "Pricing", "Contact"];
 
   return (
     <header className="text-gray-600 body-font bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100 px-4 md:px-10 lg:px-20">
