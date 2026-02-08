@@ -1,6 +1,7 @@
 const Navbar = () => {
+  const menuItems = ["Home", "Features", "Pricing", "Contact"];
   return (
-    <header className="text-gray-600 body-font">
+    <header className="text-gray-600 body-font px-5">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <svg
@@ -15,20 +16,16 @@ const Navbar = () => {
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
           </svg>
-          <span
-            className="ml-3 text-xl 
- "
-          >
-            DevLaunch
-          </span>
+          <span className="ml-3 text-xl">DevLaunch</span>
         </a>
-        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900">Home</a>
-          <a className="mr-5 hover:text-gray-900">Features</a>
-          <a className="mr-5 hover:text-gray-900">Pricing</a>
-          <a className="mr-5 hover:text-gray-900">Contact</a>
+        <nav className="md:ml-auto md:mr-auto flex  gap-8 flex-wrap items-center text-base justify-center">
+          {menuItems.map((item) => (
+            <a key={item} href="#" className="hover:text-gray-900 transition">
+              {item}
+            </a>
+          ))}
         </nav>
-        <button className="inline-flex items-center  bg-indigo-500 border-0   py-2 px-3  focus:outline-none hover:bg-indigo-600 rounded  text-white mt-4 md:mt-0">
+        <button className="inline-flex items-center  bg-indigo-500 border-0 py-2 px-3  focus:outline-none hover:bg-indigo-600 rounded text-white mt-4 md:mt-0">
           Get Started
           <svg
             fill="none"
