@@ -1,43 +1,37 @@
+import { FiArrowRight, FiZap } from "react-icons/fi";
+
 const Navbar = () => {
   const menuItems = ["Home", "Features", "Pricing", "Contact"];
+
   return (
-    <header className="text-gray-600 body-font px-5">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-          </svg>
-          <span className="ml-3 text-xl">DevLaunch</span>
+    <header className="text-gray-600 body-font bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
+      <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
+        <a className="flex title-font font-bold items-center text-gray-900 mb-4 md:mb-0 cursor-pointer">
+          <div className="bg-indigo-600 p-2 rounded-lg text-white">
+            <FiZap size={24} />
+          </div>
+          <span className="ml-3 text-2xl tracking-tight text-indigo-600">
+            SyncFlow
+          </span>
         </a>
-        <nav className="md:ml-auto md:mr-auto flex  gap-8 flex-wrap items-center text-base justify-center">
+
+        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-medium">
           {menuItems.map((item) => (
-            <a key={item} href="#" className="hover:text-gray-900 transition">
+            <a
+              key={item}
+              href={`#${item.toLowerCase()}`}
+              className="mr-7 hover:text-indigo-600 transition-colors duration-300 relative group"
+            >
               {item}
+
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-indigo-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </nav>
-        <button className="inline-flex items-center  bg-indigo-500 border-0 py-2 px-3  focus:outline-none hover:bg-indigo-600 rounded text-white mt-4 md:mt-0">
+
+        <button className="inline-flex items-center bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 rounded-full text-white mt-4 md:mt-0 shadow-lg shadow-indigo-200 transition-all transform hover:scale-105 active:scale-95 font-semibold">
           Get Started
-          <svg
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            className="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
+          <FiArrowRight className="ml-2" />
         </button>
       </div>
     </header>
