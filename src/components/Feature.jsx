@@ -27,7 +27,10 @@ const Feature = () => {
   ];
 
   return (
-    <section className="text-gray-600 body-font bg-white px-6 md:px-16 lg:px-24">
+    <section
+      className="text-gray-600 body-font bg-white px-6 md:px-16 lg:px-24"
+      id="features"
+    >
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-indigo-600 text-sm font-semibold tracking-widest uppercase mb-1">

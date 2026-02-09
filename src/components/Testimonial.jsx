@@ -25,7 +25,10 @@ const Testimonial = () => {
   ];
 
   return (
-    <section className="text-gray-600 body-font px-6 md:px-16 lg:px-24">
+    <section
+      className="text-gray-600 body-font px-6 md:px-16 lg:px-24"
+      id="testimonial"
+    >
       <div className="container py-24 mx-auto">
         <h1 className="text-3xl font-bold title-font text-gray-900 mb-12 text-center">
           What Our Clients Say

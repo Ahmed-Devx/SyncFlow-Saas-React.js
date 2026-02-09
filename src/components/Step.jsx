@@ -1,17 +1,17 @@
 import Stepsbg from "../assets/Steps.jpg";
 const Step = () => {
   return (
-    // Alignment fix: px-6 md:px-16 lg:px-24
-    <section className="text-gray-600 body-font px-6 md:px-16 lg:px-24 bg-gray-50/50">
+    <section
+      className="text-gray-600 body-font px-6 md:px-16 lg:px-24 bg-gray-50/50"
+      id="step"
+    >
       <div className="container py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap w-full">
-          {/* Left Side: Steps */}
           <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
             <h1 className="text-3xl font-bold text-gray-900 mb-10">
               Get started in minutes
             </h1>
 
-            {/* Step 1 */}
             <div className="flex relative pb-12">
               <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                 <div className="h-full w-1 bg-indigo-100 pointer-events-none" />
@@ -40,7 +40,6 @@ const Step = () => {
               </div>
             </div>
 
-            {/* Step 2 */}
             <div className="flex relative pb-12">
               <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                 <div className="h-full w-1 bg-indigo-100 pointer-events-none" />
@@ -69,7 +68,6 @@ const Step = () => {
               </div>
             </div>
 
-            {/* Step 3 (Finish) */}
             <div className="flex relative">
               <div className="flex-shrink-0 w-10 h-12 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
                 <svg
@@ -97,7 +95,6 @@ const Step = () => {
             </div>
           </div>
 
-          {/* Right Side: Image/Mockup */}
           <div className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-2xl overflow-hidden mt-12 md:mt-0 shadow-2xl">
             <img
               className="w-full h-full object-cover"
