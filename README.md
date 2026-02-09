@@ -41,7 +41,6 @@ https://github.com/Ahmed-Devx/SyncFlow-Saas-React.js
 ## 📌 Sections Included
 - **Navbar** — Logo, navigation links, CTA button  
 - **Hero Section** — Main headline, description & call to action  
-- **Stats Section** — Trust & credibility indicators  
 - **Features Section** — Props-driven reusable feature cards  
 - **How It Works** — Step-by-step workflow explanation  
 - **Pricing Section** — Card-based pricing plans  
@@ -80,4 +79,5 @@ Frontend Developer | React Learner
 
  
  
+
 
