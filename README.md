@@ -73,11 +73,12 @@ This project was built to practice:
 
 ## 👤 Author
 
-**Ahmed Devx**
-Frontend Developer | React Learner
+**Muhammad Ahmed**
+Frontend Developer  
 
  
  
+
 
 
 
