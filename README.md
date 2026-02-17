@@ -6,8 +6,7 @@ This project focuses on clean UI, scalable structure, and best practices used in
 ---
 
 ## 🌐 Live Demo
-👉 **Netlify:**  
-https://jolly-sunburst-cf0e22.netlify.app/
+👉 **Netlify:**  https://jolly-sunburst-cf0e22.netlify.app/
 
  
 
@@ -78,6 +77,7 @@ Frontend Developer
 
  
  
+
 
 
 
