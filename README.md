@@ -69,13 +69,19 @@ This project was built to practice:
 * Backend/API integration
 
 ---
-
-## 👤 Author
-
-**Muhammad Ahmed**
-Frontend Developer  
-
  
+
+  ## 👨‍💻 Author
+
+**Muhammad Ahmed (AhmedDevx07)**
+🚀 Full Stack MERN Developer
+🎨 Passionate about Modern UI/UX & Scalable Web Apps
+
+### 🌐 Connect With Me
+
+* 🐙 GitHub: https://github.com/AhmedDevx07
+* 💼 LinkedIn: https://linkedin.com/in/ahmeddevx07
+
  
 
 
